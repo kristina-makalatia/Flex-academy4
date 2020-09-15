@@ -1,0 +1,44 @@
+/*Responsive*/
+@media (max-width: 1185px) {
+	.container {
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 1125px) {
+	.video-flex {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.video1 {
+		margin-bottom: 30px;
+	}
+	.images-flex {
+		flex-wrap: wrap;
+	}
+	.image-box {
+		width: 48%;
+	}
+	.image-box img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.image-box {
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 480px) {
+/*	.navigation {
+		display: none;
+	}*/
+	.burger-icon {
+		display: block;
+	}
+	.nav-li:not(.active) {
+		display: none;
+	}
+}

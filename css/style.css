@@ -12,7 +12,8 @@
 
 /*Video section*/
 .video{
-	width: 570px;
+	max-width: 570px;
+	width: 100%;
 	height: 320px;
 	background: red;
 /*	margin-right: 30px;*/
@@ -21,7 +22,8 @@
 	justify-content: center;
 }
 .video1{
-	width: 570px;
+	max-width: 570px;
+	width: 100%;
 	height: 320px;
 	background: yellow;
 }
@@ -31,9 +33,11 @@
 .video-flex {
 	display: flex;
 	justify-content: space-between;
+	/*flex-wrap: wrap;*/
 }
 .container {
-	width: 1170px;
+	max-width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 }
 .youtube-video {
@@ -47,20 +51,38 @@
 }
 .images-flex {
 	display: flex;
-	/*justify-content: space-between;*/
+	justify-content: space-between;
 }
-.image {
-	margin-right: 30px;
+.image-box h3 {
+	background-color: #E6E6E6;
+}
+.image-box img {
 	width: 270px;
-	height: 210px;
-}
-.image:last-child {
-	margin-right: 0;
-}
-.image img {
-	width: 100%;
 	display: block;
 }
-.image h3 {
-	background-color: #E6E6E6;
+
+
+
+
+
+
+/*Icons*/
+.icon{
+	color: red;
+	font-size: 30px;
+}
+.icon:hover {
+	color: aqua;
+}
+.right-block {
+	display: flex;
+}
+.burger-icon {
+	display: none;
+	color: blue;
+	font-size: 30px;
+}
+.icon-Path-428{
+	color: green;
+	font-size: 30px;
 }
